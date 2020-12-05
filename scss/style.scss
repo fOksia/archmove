@@ -1,0 +1,135 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+@import 'btn';
+@import 'slider';
+
+
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 400 1.6rem/1.5 $ff-main;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 4.8rem;
+  margin-bottom: 40px;
+}
+
+header {
+  display: flex;
+  padding: 1.5em 1.6em;
+}
+
+nav {
+  display: flex;;
+  justify-content: space-between;
+  width: 100%;
+  color: $text-sm;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  &__item {
+    padding: 5px 25px;
+  }
+  &__link {
+    color: $text-sm;
+  }
+}
+
+.dream {
+  span {
+    color: $brand;
+  }
+  &__title {
+    font-family: $ff-title;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 1;
+    max-width: 870px;
+  }
+  &__inner {
+    display: flex;
+  }
+  &__text {
+    width: 26%;
+    margin-right: 55px;
+    p {
+      margin-bottom: 55px;
+    }
+  }
+  &__imgwrap {
+    max-width: 70%;
+    img {
+      width: 100%;
+    }
+  }
+  /* &__link {
+    color: #fff;
+  } */
+}
+
+.rooms {
+  &__wrap {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &__title { 
+  margin: 0 auto 40px;
+  max-width: 535px;
+  }
+}
+
+.advantages {
+  &__title {
+    max-width: 41%;
+  }
+  &__img {
+    width: 50%;
+    margin-right: 160px;
+  }
+  &__inner {
+    display: flex;
+  }
+  &__list {
+    width: 50%;
+  }
+  &__item { 
+    display: flex;
+  }
+  &__sub-title {
+    line-height: 25,6px;
+  }
+}
+.test {
+  margin-left: 40px;
+}
+

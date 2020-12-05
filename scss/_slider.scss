@@ -1,0 +1,24 @@
+.slider {
+  &__content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__part {
+    margin-right: 40px;
+    max-width: 25%;
+    img {
+      width: 100%;
+    }
+  }
+  &__btn {
+    position: absolute;
+    bottom: 0;
+  }
+  &__btn:nth-child(2) {
+    right: 30px;
+  }
+  &__btn:last-child {
+    right: 0;
+  }
+}
